@@ -15,7 +15,7 @@ if (loginForm) {
     const message = document.getElementById("loginMessage");
     if (username === "admin" && password === "admin123") {
       sessionStorage.setItem("himatifDemoLogin", "true");
-      window.location.href = "dashboard.html";
+      window.location.href = "dashboard.xhtml";
     } else {
       message.textContent = "Username atau password demo tidak sesuai.";
     }
@@ -72,6 +72,6 @@ if (dashboardContent) {
   renderView("dashboard");
   document.getElementById("sidebarToggle")?.addEventListener("click",()=>document.getElementById("sidebar").classList.toggle("open"));
   document.getElementById("logoutButton")?.addEventListener("click",()=>{
-    sessionStorage.removeItem("himatifDemoLogin");window.location.href="login.html";
+    sessionStorage.removeItem("himatifDemoLogin");window.location.href="login.xhtml";
   });
 }

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:h="jakarta.faces.html" lang="id" xml:lang="id">
+<h:head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dashboard | HIMATIF</title>
+  <link rel="stylesheet" href="css/style.css" />
+</h:head>
+<h:body class="dashboard-page">
+  <div class="dashboard-layout">
+    <aside class="sidebar" id="sidebar">
+      <a class="brand sidebar-brand" href="dashboard.xhtml"><span class="brand-mark">H</span><span>HIMATIF<span class="brand-sub">Management System</span></span></a>
+      <div class="sidebar-label">MENU UTAMA</div>
+      <nav class="side-nav" id="sideNav">
+        <a href="#dashboard" class="side-link active" data-view="dashboard"><span>▦</span> Dashboard</a>
+        <a href="#anggota" class="side-link" data-view="anggota"><span>♙</span> Anggota</a>
+        <a href="#kepengurusan" class="side-link" data-view="kepengurusan"><span>♧</span> Kepengurusan</a>
+        <a href="#program-kerja" class="side-link" data-view="program"><span>▤</span> Program Kerja</a>
+        <a href="#event" class="side-link" data-view="event"><span>◷</span> Event</a>
+        <a href="#keuangan" class="side-link" data-view="keuangan"><span>Rp</span> Keuangan</a>
+        <a href="#dokumen" class="side-link" data-view="dokumen"><span>▧</span> Dokumen</a>
+        <a href="#surat" class="side-link" data-view="surat"><span>✉</span> Surat</a>
+        <a href="#persetujuan" class="side-link" data-view="approval"><span>✓</span> Persetujuan</a>
+        <a href="#konten" class="side-link" data-view="konten"><span>▣</span> Artikel &amp; Galeri</a>
+        <a href="#statistik" class="side-link" data-view="statistik"><span>▥</span> Statistik</a>
+      </nav>
+      <div class="sidebar-bottom"><a href="index.xhtml" class="side-link"><span>↗</span> Lihat Website Publik</a><button class="side-link logout-link" id="logoutButton"><span>⇥</span> Keluar</button></div>
+    </aside>
+    <main class="dashboard-main">
+      <header class="topbar"><button class="menu-toggle dashboard-toggle" id="sidebarToggle">☰</button><div><span class="muted small">SIM HIMATIF /</span> <strong id="breadcrumb">Dashboard</strong></div><div class="user-menu"><span class="avatar">A</span><span><strong>Administrator</strong><small>Admin Demo</small></span></div></header>
+      <div class="dashboard-content" id="dashboardContent"></div>
+      <footer class="dashboard-footer">SIM HIMATIF · Prototype frontend lokal · 2026</footer>
+    </main>
+  </div>
+  <script src="js/script.js"></script>
+</h:body>
+</html>

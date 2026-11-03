@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:h="jakarta.faces.html" lang="id" xml:lang="id">
+<h:head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Masuk | HIMATIF</title>
+  <link rel="stylesheet" href="css/style.css" />
+</h:head>
+<h:body class="login-page">
+  <a class="back-home" href="index.xhtml">← Kembali ke Beranda</a>
+  <main class="login-shell">
+    <section class="login-info"><a class="brand brand-light" href="index.xhtml"><span class="brand-mark">H</span><span>HIMATIF<span class="brand-sub">Management Information System</span></span></a><div><span class="eyebrow">Portal internal</span><h1>Kelola organisasi dengan lebih <span>terarah.</span></h1><p>Masuk untuk mengakses informasi dan fitur manajemen organisasi.</p></div><small>Prototype frontend · Data belum terhubung ke database</small></section>
+    <section class="login-form-wrap">
+      <form class="login-form" id="loginForm">
+        <span class="eyebrow">Selamat datang kembali</span><h2>Masuk ke akun</h2><p class="muted">Gunakan akun demo untuk melihat dashboard.</p>
+        <label for="username">Username</label><input id="username" name="username" type="text" placeholder="Masukkan username" required="required" />
+        <label for="password">Password</label><input id="password" name="password" type="password" placeholder="Masukkan password" required="required" />
+        <div class="demo-hint"><strong>Akun demo</strong><br />Username: <code>admin</code><br />Password: <code>admin123</code></div>
+        <p class="form-message" id="loginMessage" aria-live="polite"></p>
+        <button class="btn btn-primary btn-full" type="submit">Masuk Dashboard</button>
+        <p class="small muted center">Login ini hanya simulasi di browser, bukan autentikasi sungguhan.</p>
+      </form>
+    </section>
+  </main>
+  <script src="js/script.js"></script>
+</h:body>
+</html>
