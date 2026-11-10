@@ -7,9 +7,12 @@ Jakarta EE version and runtime choice (this sample assumes Java SE 17). Note,
 the [Maven Wrapper](https://maven.apache.org/wrapper/) is already included in the project, so a Maven install 
 is not actually needed. You may first need to execute `chmod +x mvnw`.
 
+The HIMATIF dashboard supports adding, editing, and deleting records across its management modules. Its
+sample records are held in session-scoped `ArrayList` collections and are available only for the active
+browser session; this project does not persist them to a database.
+
 ```
 ./mvnw clean package liberty:run
 ```
 
 Once the runtime starts, you can access the project at [http://localhost:9080](http://localhost:9080).
-

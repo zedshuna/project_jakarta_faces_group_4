@@ -1,0 +1,13 @@
+
+ Index  Count  Time of first Occurrence    Time of last Occurrence     Exception SourceId ProbeId
+------+------+---------------------------+---------------------------+---------------------------
+     0     16  11/11/26, 5:01:45:631 WIB   11/11/26, 5:02:18:520 WIB  jakarta.servlet.ServletException com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter 82
+                                                                            - C:\PemrogramanWeb\UAS_PBO\project_jakarta_faces_group_4\target\liberty\wlp\usr\servers\defaultServer\logs\ffdc\ffdc_26.11.11_05.01.45.0.log
+                                                                            - C:\PemrogramanWeb\UAS_PBO\project_jakarta_faces_group_4\target\liberty\wlp\usr\servers\defaultServer\logs\ffdc\ffdc_26.11.11_05.01.47.0.log
+     1      8  11/11/26, 5:01:45:931 WIB   11/11/26, 5:02:18:520 WIB  jakarta.servlet.ServletException com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter 144
+                                                                            - C:\PemrogramanWeb\UAS_PBO\project_jakarta_faces_group_4\target\liberty\wlp\usr\servers\defaultServer\logs\ffdc\ffdc_26.11.11_05.01.47.1.log
+                                                                            - C:\PemrogramanWeb\UAS_PBO\project_jakarta_faces_group_4\target\liberty\wlp\usr\servers\defaultServer\logs\ffdc\ffdc_26.11.11_05.01.45.1.log
+     2      8  11/11/26, 5:01:45:980 WIB   11/11/26, 5:02:18:520 WIB  jakarta.servlet.ServletException com.ibm.ws.webcontainer.filter.WebAppFilterManager.invokeFilters 1064
+                                                                            - C:\PemrogramanWeb\UAS_PBO\project_jakarta_faces_group_4\target\liberty\wlp\usr\servers\defaultServer\logs\ffdc\ffdc_26.11.11_05.01.47.2.log
+                                                                            - C:\PemrogramanWeb\UAS_PBO\project_jakarta_faces_group_4\target\liberty\wlp\usr\servers\defaultServer\logs\ffdc\ffdc_26.11.11_05.01.45.2.log
+------+------+---------------------------+---------------------------+---------------------------

@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xmlns:h="jakarta.faces.html" lang="id" xml:lang="id">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="jakarta.faces.html"
+      xmlns:f="jakarta.faces.core"
+      xmlns:ui="jakarta.faces.facelets"
+      lang="id" xml:lang="id">
 <h:head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -12,25 +16,162 @@
     <aside class="sidebar" id="sidebar">
       <a class="brand sidebar-brand" href="dashboard.xhtml"><span class="brand-mark">H</span><span>HIMATIF<span class="brand-sub">Management System</span></span></a>
       <div class="sidebar-label">MENU UTAMA</div>
-      <nav class="side-nav" id="sideNav">
-        <a href="#dashboard" class="side-link active" data-view="dashboard"><span>▦</span> Dashboard</a>
-        <a href="#anggota" class="side-link" data-view="anggota"><span>♙</span> Anggota</a>
-        <a href="#kepengurusan" class="side-link" data-view="kepengurusan"><span>♧</span> Kepengurusan</a>
-        <a href="#program-kerja" class="side-link" data-view="program"><span>▤</span> Program Kerja</a>
-        <a href="#event" class="side-link" data-view="event"><span>◷</span> Event</a>
-        <a href="#keuangan" class="side-link" data-view="keuangan"><span>Rp</span> Keuangan</a>
-        <a href="#dokumen" class="side-link" data-view="dokumen"><span>▧</span> Dokumen</a>
-        <a href="#surat" class="side-link" data-view="surat"><span>✉</span> Surat</a>
-        <a href="#persetujuan" class="side-link" data-view="approval"><span>✓</span> Persetujuan</a>
-        <a href="#konten" class="side-link" data-view="konten"><span>▣</span> Artikel &amp; Galeri</a>
-        <a href="#statistik" class="side-link" data-view="statistik"><span>▥</span> Statistik</a>
-      </nav>
-      <div class="sidebar-bottom"><a href="index.xhtml" class="side-link"><span>↗</span> Lihat Website Publik</a><button class="side-link logout-link" id="logoutButton"><span>⇥</span> Keluar</button></div>
+      <h:form id="navigationForm">
+        <nav class="side-nav">
+          <h:commandLink action="#{dashboardBean.open('dashboard')}" styleClass="#{dashboardBean.currentView eq 'dashboard' ? 'side-link active' : 'side-link'}"><span>▦</span> Dashboard</h:commandLink>
+          <h:commandLink action="#{dashboardBean.open('anggota')}" styleClass="#{dashboardBean.currentView eq 'anggota' ? 'side-link active' : 'side-link'}"><span>♙</span> Anggota</h:commandLink>
+          <h:commandLink action="#{dashboardBean.open('kepengurusan')}" styleClass="#{dashboardBean.currentView eq 'kepengurusan' ? 'side-link active' : 'side-link'}"><span>♧</span> Kepengurusan</h:commandLink>
+          <h:commandLink action="#{dashboardBean.open('program')}" styleClass="#{dashboardBean.currentView eq 'program' ? 'side-link active' : 'side-link'}"><span>▤</span> Program Kerja</h:commandLink>
+          <h:commandLink action="#{dashboardBean.open('event')}" styleClass="#{dashboardBean.currentView eq 'event' ? 'side-link active' : 'side-link'}"><span>◷</span> Event</h:commandLink>
+          <h:commandLink action="#{dashboardBean.open('keuangan')}" styleClass="#{dashboardBean.currentView eq 'keuangan' ? 'side-link active' : 'side-link'}"><span>Rp</span> Keuangan</h:commandLink>
+          <h:commandLink action="#{dashboardBean.open('dokumen')}" styleClass="#{dashboardBean.currentView eq 'dokumen' ? 'side-link active' : 'side-link'}"><span>▧</span> Dokumen</h:commandLink>
+          <h:commandLink action="#{dashboardBean.open('surat')}" styleClass="#{dashboardBean.currentView eq 'surat' ? 'side-link active' : 'side-link'}"><span>✉</span> Surat</h:commandLink>
+          <h:commandLink action="#{dashboardBean.open('approval')}" styleClass="#{dashboardBean.currentView eq 'approval' ? 'side-link active' : 'side-link'}"><span>✓</span> Persetujuan</h:commandLink>
+          <h:commandLink action="#{dashboardBean.open('konten')}" styleClass="#{dashboardBean.currentView eq 'konten' ? 'side-link active' : 'side-link'}"><span>▣</span> Artikel &amp; Galeri</h:commandLink>
+          <h:commandLink action="#{dashboardBean.open('statistik')}" styleClass="#{dashboardBean.currentView eq 'statistik' ? 'side-link active' : 'side-link'}"><span>▥</span> Statistik</h:commandLink>
+        </nav>
+      </h:form>
+      <div class="sidebar-bottom">
+        <a href="index.xhtml" class="side-link"><span>↗</span> Lihat Website Publik</a>
+        <a href="index.xhtml" class="side-link logout-link" id="logoutButton"><span>⇥</span> Keluar</a>
+      </div>
     </aside>
+
     <main class="dashboard-main">
-      <header class="topbar"><button class="menu-toggle dashboard-toggle" id="sidebarToggle">☰</button><div><span class="muted small">SIM HIMATIF /</span> <strong id="breadcrumb">Dashboard</strong></div><div class="user-menu"><span class="avatar">A</span><span><strong>Administrator</strong><small>Admin Demo</small></span></div></header>
-      <div class="dashboard-content" id="dashboardContent"></div>
-      <footer class="dashboard-footer">SIM HIMATIF · Prototype frontend lokal · 2026</footer>
+      <header class="topbar">
+        <button type="button" class="menu-toggle dashboard-toggle" id="sidebarToggle" aria-label="Buka menu">☰</button>
+        <div><span class="muted small">SIM HIMATIF /</span> <strong><h:outputText value="#{dashboardBean.title}" /></strong></div>
+        <div class="user-menu"><span class="avatar">A</span><span><strong>Administrator</strong><small>Pengelola HIMATIF</small></span></div>
+      </header>
+
+      <div class="dashboard-content">
+        <div class="page-heading">
+          <div><h1><h:outputText value="#{dashboardBean.title}" /></h1><p><h:outputText value="#{dashboardBean.description}" /></p></div>
+          <span class="tag">Periode 2026/2027</span>
+        </div>
+
+        <h:panelGroup layout="block" styleClass="dashboard-view" rendered="#{dashboardBean.currentView eq 'dashboard'}">
+          <div class="stat-grid">
+            <div class="stat-card"><span>Anggota Aktif</span><strong><h:outputText value="#{dashboardBean.activeMemberCount}" /></strong><small>dari #{dashboardBean.memberCount} anggota terdaftar</small></div>
+            <div class="stat-card"><span>Program Kerja</span><strong><h:outputText value="#{dashboardBean.programCount}" /></strong><small><h:outputText value="#{dashboardBean.completedProgramCount}" /> program selesai</small></div>
+            <div class="stat-card"><span>Event Mendatang</span><strong><h:outputText value="#{dashboardBean.upcomingEventCount}" /></strong><small><h:outputText value="#{dashboardBean.eventCount}" /> agenda tercatat</small></div>
+            <div class="stat-card"><span>Menunggu Persetujuan</span><strong><h:outputText value="#{dashboardBean.pendingApprovalCount}" /></strong><small>pengajuan perlu ditinjau</small></div>
+          </div>
+
+          <section class="panel">
+            <div class="panel-heading"><h3>Aktivitas Organisasi</h3><span>Pembaruan terbaru</span></div>
+            <div class="table-wrap">
+              <table>
+                <thead><tr><th>Aktivitas</th><th>Pengguna</th><th>Tanggal</th><th>Status</th></tr></thead>
+                <tbody>
+                  <ui:repeat value="#{dashboardBean.activities}" var="activity">
+                    <tr><ui:repeat value="#{activity.values}" var="value"><td><h:outputText value="#{value}" /></td></ui:repeat></tr>
+                  </ui:repeat>
+                </tbody>
+              </table>
+            </div>
+          </section>
+
+          <div class="simple-grid">
+            <section class="panel">
+              <div class="panel-heading"><h3>Ringkasan Keuangan</h3><span>Data tercatat</span></div>
+              <div class="finance-summary"><span>Pemasukan<strong><h:outputText value="#{dashboardBean.totalIncome}" /></strong></span><span>Pengeluaran<strong><h:outputText value="#{dashboardBean.totalExpenses}" /></strong></span><span>Saldo<strong><h:outputText value="#{dashboardBean.balance}" /></strong></span></div>
+            </section>
+            <section class="panel">
+              <div class="panel-heading"><h3>Perhatian</h3></div>
+              <p class="small muted">Tinjau pengajuan yang menunggu persetujuan dan perbarui agenda kegiatan sesuai perkembangan organisasi.</p>
+              <h:form><h:commandLink action="#{dashboardBean.open('approval')}" styleClass="text-link">Buka Persetujuan →</h:commandLink></h:form>
+            </section>
+          </div>
+        </h:panelGroup>
+
+        <h:panelGroup layout="block" styleClass="dashboard-view" rendered="#{dashboardBean.managedView}">
+          <h:form id="dataForm">
+            <h:messages styleClass="faces-messages" infoClass="message-info" errorClass="message-error" warnClass="message-warn" />
+            <section class="panel data-entry-panel">
+              <div class="panel-heading">
+                <h3><h:outputText value="#{dashboardBean.editing ? 'Perbarui Data' : 'Tambah Data'}" /></h3>
+                <span>Informasi tersimpan selama sesi aktif</span>
+              </div>
+              <div class="record-form">
+                <ui:repeat value="#{dashboardBean.fields}" var="field" varStatus="fieldStatus">
+                  <div class="field-group">
+                    <label class="field-label">
+                      <span><h:outputText value="#{field.label}" /><span class="required-mark"> *</span></span>
+                      <h:selectOneMenu id="selectField" value="#{dashboardBean.formValues[fieldStatus.index]}" required="true" requiredMessage="#{field.label} wajib dipilih." rendered="#{field.type eq 'select'}" styleClass="form-control">
+                        <f:selectItem itemLabel="Pilih #{field.label}" itemValue="" noSelectionOption="true" />
+                        <f:selectItems value="#{field.options}" />
+                      </h:selectOneMenu>
+                      <h:inputText id="dateField" type="date" value="#{dashboardBean.formValues[fieldStatus.index]}" required="true" requiredMessage="#{field.label} wajib diisi." rendered="#{field.type eq 'date'}" styleClass="form-control" />
+                      <h:inputText id="digitsField" value="#{dashboardBean.formValues[fieldStatus.index]}" required="true" requiredMessage="#{field.label} wajib diisi." rendered="#{field.type eq 'digits' or field.type eq 'year'}" maxlength="#{field.type eq 'year' ? 4 : 20}" pattern="[0-9]*" inputmode="numeric" oninput="this.value=this.value.replace(/[^0-9]/g,'')" styleClass="form-control" />
+                      <h:inputText id="numberField" type="number" value="#{dashboardBean.formValues[fieldStatus.index]}" required="true" requiredMessage="#{field.label} wajib diisi." rendered="#{field.type eq 'number'}" min="0" step="1" inputmode="numeric" styleClass="form-control" />
+                      <h:inputText id="textField" value="#{dashboardBean.formValues[fieldStatus.index]}" required="true" requiredMessage="#{field.label} wajib diisi." rendered="#{field.type eq 'text'}" styleClass="form-control" />
+                    </label>
+                  </div>
+                </ui:repeat>
+              </div>
+              <h:panelGroup layout="block" rendered="#{dashboardBean.currentView eq 'keuangan'}">
+                <p class="form-hint">Masukkan nominal dalam angka tanpa pemisah, misalnya 2500000.</p>
+              </h:panelGroup>
+              <div class="form-actions">
+                <h:commandButton value="#{dashboardBean.editing ? 'Simpan Perubahan' : 'Simpan Data'}" action="#{dashboardBean.save}" styleClass="toolbar-button" />
+              </div>
+            </section>
+          </h:form>
+
+          <h:form id="cancelForm">
+            <div class="form-actions cancel-actions">
+              <h:commandButton value="Batal mengubah data" action="#{dashboardBean.cancelEdit}" rendered="#{dashboardBean.editing}" styleClass="toolbar-button button-secondary" />
+            </div>
+          </h:form>
+
+          <h:form id="tableForm">
+            <section class="panel">
+              <div class="panel-heading"><h3>Daftar Data</h3><span><h:outputText value="#{dashboardBean.records.size()}" /> data</span></div>
+              <div class="table-wrap">
+                <table>
+                  <thead>
+                    <tr><ui:repeat value="#{dashboardBean.columns}" var="column"><th><h:outputText value="#{column}" /></th></ui:repeat><th>Tindakan</th></tr>
+                  </thead>
+                  <tbody>
+                    <ui:repeat value="#{dashboardBean.records}" var="record" varStatus="row">
+                      <tr>
+                        <ui:repeat value="#{record.values}" var="value" varStatus="column">
+                          <td><h:outputText value="#{value}" /></td>
+                        </ui:repeat>
+                        <td class="row-actions">
+                          <h:commandButton value="Ubah" action="#{dashboardBean.edit(row.index)}" styleClass="action-btn" />
+                          <h:commandButton value="Hapus" action="#{dashboardBean.delete(row.index)}" onclick="return confirm('Hapus data ini?')" styleClass="action-btn action-danger" />
+                          <h:commandButton value="Setujui" action="#{dashboardBean.updateApproval(row.index, 'Disetujui')}" rendered="#{dashboardBean.currentView eq 'approval' and record.values[4] eq 'Menunggu'}" styleClass="action-btn" />
+                          <h:commandButton value="Tolak" action="#{dashboardBean.updateApproval(row.index, 'Ditolak')}" rendered="#{dashboardBean.currentView eq 'approval' and record.values[4] eq 'Menunggu'}" styleClass="action-btn action-danger" />
+                        </td>
+                      </tr>
+                    </ui:repeat>
+                    <ui:fragment rendered="#{empty dashboardBean.records}">
+                      <tr><td colspan="#{dashboardBean.columns.size() + 1}" class="empty-note">Belum ada data. Tambahkan data melalui formulir di atas.</td></tr>
+                    </ui:fragment>
+                  </tbody>
+                </table>
+              </div>
+            </section>
+          </h:form>
+        </h:panelGroup>
+
+        <h:panelGroup layout="block" styleClass="dashboard-view" rendered="#{dashboardBean.currentView eq 'statistik'}">
+          <div class="stat-grid">
+            <div class="stat-card"><span>Anggota Aktif</span><strong><h:outputText value="#{dashboardBean.activeMemberCount}" /></strong><small><h:outputText value="#{dashboardBean.memberCount}" /> anggota terdaftar</small></div>
+            <div class="stat-card"><span>Program Selesai</span><strong><h:outputText value="#{dashboardBean.completedProgramCount}" /></strong><small>dari #{dashboardBean.programCount} program kerja</small></div>
+            <div class="stat-card"><span>Event Terlaksana</span><strong><h:outputText value="#{dashboardBean.completedEventCount}" /></strong><small>dari #{dashboardBean.eventCount} agenda</small></div>
+            <div class="stat-card"><span>Rasio Program Selesai</span><strong><h:outputText value="#{dashboardBean.programCompletionRate}" /></strong><small>berdasarkan status program kerja</small></div>
+          </div>
+          <section class="panel">
+            <div class="panel-heading"><h3>Ringkasan Keuangan</h3><span>Periode 2026/2027</span></div>
+            <div class="finance-summary"><span>Total pemasukan<strong><h:outputText value="#{dashboardBean.totalIncome}" /></strong></span><span>Total pengeluaran<strong><h:outputText value="#{dashboardBean.totalExpenses}" /></strong></span><span>Saldo saat ini<strong><h:outputText value="#{dashboardBean.balance}" /></strong></span></div>
+          </section>
+        </h:panelGroup>
+      </div>
+
+      <footer class="dashboard-footer">SIM HIMATIF · Pengelolaan data lokal dalam memori sesi · 2026</footer>
     </main>
   </div>
   <script src="js/script.js"></script>

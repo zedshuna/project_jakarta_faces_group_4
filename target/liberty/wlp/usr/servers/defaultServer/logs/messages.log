@@ -5,55 +5,451 @@ java.home = C:\Program Files\Eclipse Adoptium\jdk-21.0.13.9-hotspot
 java.version = 21.0.13
 java.runtime = OpenJDK Runtime Environment (21.0.13+9-LTS)
 os = Windows 10 (10.0; amd64) (en_ID)
-process = 19108@DESKTOP-CHF21K1
+process = 12064@DESKTOP-CHF21K1
 Classpath = C:\PemrogramanWeb\UAS_PBO\project_jakarta_faces_group_4\target\liberty\wlp\bin\tools\ws-server.jar
 Java Library path = C:\Program Files\Eclipse Adoptium\jdk-21.0.13.9-hotspot\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Eclipse Adoptium\jdk-21.0.13.9-hotspot\bin;C:\Python315\Scripts\;C:\Python315\;C:\Program Files\Eclipse Adoptium\jdk-17.0.20.101-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\PuTTY\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\vii_nathanael\.config\herd-lite\bin;C:\Users\vii_nathanael\AppData\Local\Microsoft\WindowsApps;C:\Users\vii_nathanael\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\vii_nathanael\AppData\Roaming\npm;C:\Program Files\Apache\apache-maven-3.10.0\bin;;c:\Users\vii_nathanael\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;C:\Users\vii_nathanael\AppData\Local\Programs\Microsoft VS Code\bin\copilot-shim;c:\Users\vii_nathanael\.vscode\extensions\vscjava.vscode-java-debug-0.60.0\bundled\scripts\noConfigScripts;.
 ********************************************************************************
-[11/4/26, 1:24:32:303 WIB] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0001I: The server defaultServer has been launched.
-[11/4/26, 1:24:34:355 WIB] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           I CWWKE0002I: The kernel started after 2.568 seconds
-[11/4/26, 1:24:34:432 WIB] 00000035 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0007I: Feature update started.
-[11/4/26, 1:24:37:505 WIB] 00000029 com.ibm.ws.security.ready.internal.SecurityReadyServiceImpl  I CWWKS0007I: The security service is starting...
-[11/4/26, 1:24:37:897 WIB] 0000002c com.ibm.ws.app.manager.internal.monitor.DropinMonitor        A CWWKZ0058I: Monitoring dropins for applications.
-[11/4/26, 1:24:38:744 WIB] 0000002d com.ibm.ws.cache.ServerCache                                 I DYNA1001I: WebSphere Dynamic Cache instance named baseCache initialized successfully.
-[11/4/26, 1:24:38:748 WIB] 0000002d com.ibm.ws.cache.ServerCache                                 I DYNA1071I: The cache provider default is being used.
-[11/4/26, 1:24:38:750 WIB] 0000002d com.ibm.ws.cache.CacheServiceImpl                            I DYNA1056I: Dynamic Cache (object cache) initialized successfully.
-[11/4/26, 1:24:39:101 WIB] 0000002b org.jboss.weld.Version                                       I WELD-000900: 6.0.2 (Final)
-[11/4/26, 1:24:43:036 WIB] 00000031 com.ibm.ws.ssl.config.WSKeyStore                             I CWPKI0802I: Creating the SSL certificate. This may take a few seconds.
-[11/4/26, 1:24:43:058 WIB] 0000003a com.ibm.ws.security.token.ltpa.LTPAKeyInfoManager            I CWWKS4103I: Creating the LTPA keys. This may take a few seconds.
-[11/4/26, 1:24:43:140 WIB] 00000029 ibm.ws.security.authentication.internal.jaas.JAASServiceImpl I CWWKS1123I: The collective authentication plugin with class name NullCollectiveAuthenticationPlugin has been activated. 
-[11/4/26, 1:24:43:608 WIB] 00000029 com.ibm.ws.security.jaspi.AuthConfigFactoryWrapper           I CWWKS1655I: The default Java Authentication SPI for Containers (JASPIC) AuthConfigFactory class com.ibm.ws.security.jaspi.ProviderRegistry is being used because the Java security property authconfigprovider.factory is not set. 
-[11/4/26, 1:24:44:081 WIB] 0000003a com.ibm.ws.security.token.ltpa.LTPAKeyInfoManager            A CWWKS4104A: LTPA keys created in 1.023 seconds. LTPA key file: C:/PemrogramanWeb/UAS_PBO/project_jakarta_faces_group_4/target/liberty/wlp/usr/servers/defaultServer/resources/security/ltpa.keys
-[11/4/26, 1:24:44:109 WIB] 0000003a com.ibm.ws.security.ready.internal.SecurityReadyServiceImpl  I CWWKS0008I: The security service is ready.
-[11/4/26, 1:24:44:110 WIB] 0000003a com.ibm.ws.security.token.ltpa.internal.LTPAKeyCreateTask    I CWWKS4105I: LTPA configuration is ready after 1.054 seconds.
-[11/4/26, 1:24:44:710 WIB] 0000003b com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application jakartaee-hello-world.
-[11/4/26, 1:24:44:712 WIB] 0000003b bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: The jakartaee-hello-world application is using the loose application definition at the C:\PemrogramanWeb\UAS_PBO\project_jakarta_faces_group_4\target\liberty\wlp\usr\servers\defaultServer\apps\jakartaee-hello-world.war.xml location.
-[11/4/26, 1:24:47:021 WIB] 0000003b com.ibm.ws.session.WASSessionCore                            I SESN8501I: The session manager did not find a persistent storage location; HttpSession objects will be stored in the local application server's memory.
-[11/4/26, 1:24:47:055 WIB] 0000003b com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: jakartaee-hello-world.
-[11/4/26, 1:24:47:060 WIB] 0000003b com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module jakartaee-hello-world has been bound to default_host.
-[11/4/26, 1:24:47:062 WIB] 0000003b com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://desktop-chf21k1:9080/
-[11/4/26, 1:24:47:325 WIB] 00000036 com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/
-[11/4/26, 1:24:47:347 WIB] 00000036 com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
-[11/4/26, 1:24:47:509 WIB] 00000036 org.hibernate.validator.internal.util.Version                I HV000001: Hibernate Validator 9.0.0.Final
-[11/4/26, 1:24:47:691 WIB] 00000031 com.ibm.ws.ssl.config.WSKeyStore                             A CWPKI0803A: SSL certificate created in 4.655 seconds. SSL key file: C:/PemrogramanWeb/UAS_PBO/project_jakarta_faces_group_4/target/liberty/wlp/usr/servers/defaultServer/resources/security/key.p12
-[11/4/26, 1:24:47:692 WIB] 00000031 com.ibm.ws.ssl.config.WSKeyStore                             I Successfully loaded default keystore: C:/PemrogramanWeb/UAS_PBO/project_jakarta_faces_group_4/target/liberty/wlp/usr/servers/defaultServer/resources/security/key.p12 of type: PKCS12
-[11/4/26, 1:24:48:027 WIB] 00000036 com.ibm.ws.cache.CacheServiceImpl                            I DYNA1056I: Dynamic Cache (object cache) initialized successfully.
-[11/4/26, 1:24:48:075 WIB] 00000036 org.apache.myfaces.webapp.MyFacesContainerInitializer        I Using io.openliberty.faces40.internal.ee.WASMyFacesContainerInitializer
-[11/4/26, 1:24:48:833 WIB] 00000036 org.apache.myfaces.config.DefaultFacesConfigurationProvider  I Found jakarta.faces.application.ApplicationFactory factory implementation: io.openliberty.faces40.internal.config.WASApplicationFactoryImpl
-[11/4/26, 1:24:49:444 WIB] 00000036 org.apache.myfaces.util.ExternalSpecifications               I MyFaces Core Bean Validation support enabled
-[11/4/26, 1:24:49:578 WIB] 00000036 org.apache.myfaces.application.ApplicationImpl               I Couldn't discover the current project stage, using Production
-[11/4/26, 1:24:49:600 WIB] 00000036 org.apache.myfaces.view.facelets.ViewPoolProcessor           I org.apache.myfaces.CACHE_EL_EXPRESSIONS web config parameter is set to "noCache". To enable view pooling this param must be set to "alwaysRecompile". View Pooling disabled.
-[11/4/26, 1:24:49:605 WIB] 00000036 org.apache.myfaces.webapp.FacesInitializerImpl               I MyFaces Core has started, it took [1369] ms.
-[11/4/26, 1:24:49:610 WIB] 00000036 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0001I: Application jakartaee-hello-world started in 4.900 seconds.
-[11/4/26, 1:24:49:709 WIB] 00000035 com.ibm.ws.tcpchannel.internal.TCPPort                       I CWWKO0219I: TCP Channel defaultHttpEndpoint has been started and is now listening for requests on host *  (IPv6) port 9080.
-[11/4/26, 1:24:49:711 WIB] 00000035 com.ibm.ws.tcpchannel.internal.TCPPort                       I CWWKO0219I: TCP Channel defaultHttpEndpoint-ssl has been started and is now listening for requests on host *  (IPv6) port 9443.
-[11/4/26, 1:24:49:778 WIB] 00000035 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0012I: The server installed the following features: [appAuthentication-3.1, appSecurity-6.0, cdi-4.1, concurrent-3.1, data-1.0, distributedMap-1.0, enterpriseBeansLite-4.0, expressionLanguage-6.0, faces-4.1, jdbc-4.2, jndi-1.0, jsonb-3.0, jsonp-2.1, pages-4.0, persistence-3.2, persistenceContainer-3.2, restfulWS-4.0, restfulWSClient-4.0, servlet-6.1, ssl-1.0, transportSecurity-1.0, validation-3.1, webProfile-11.0, websocket-2.2].
-[11/4/26, 1:24:49:779 WIB] 00000035 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0008I: Feature update completed in 15.430 seconds.
-[11/4/26, 1:24:49:780 WIB] 00000035 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0011I: The defaultServer server is ready to run a smarter planet. The defaultServer server started in 17.993 seconds.
-[11/4/26, 1:24:49:821 WIB] 00000036 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [jakartaee-hello-world] [/] [Faces Servlet]: Initialization successful.
-[11/4/26, 1:24:51:875 WIB] 0000003b com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at C:\PemrogramanWeb\UAS_PBO\project_jakarta_faces_group_4\target\liberty\wlp\usr\servers\defaultServer\logs\state\plugin-cfg.xml.
-[11/4/26, 1:25:01:378 WIB] 00000035 com.ibm.ws.session.WASSessionCore                            W Detected JSESSIONID with invalid length; expected length of 23, found 24, setting: c54998803b62e90c9768beb9 to null.
-[11/4/26, 1:25:01:413 WIB] 00000035 org.apache.myfaces.util.ExternalSpecifications               I MyFaces Core Servlet 6.0 support enabled
-[11/4/26, 1:25:01:566 WIB] 00000035 org.apache.myfaces.util.ExternalSpecifications               I MyFaces Core: EL 6.0 support enabled
-[11/4/26, 1:25:01:570 WIB] 00000035 org.apache.myfaces.el.ELResolverBuilder                      I Chain of EL resolvers: [org.apache.myfaces.el.resolver.implicitobject.ImplicitObjectResolver@2efee9a5, org.apache.myfaces.el.resolver.CompositeComponentELResolver@7e212447, org.apache.myfaces.el.resolver.FlashELResolver@58901e8f, org.apache.myfaces.el.resolver.ResourceResolver@433fbc1b, jakarta.el.ResourceBundleELResolver@1ad5d618, org.apache.myfaces.el.resolver.ResourceBundleResolver@6da1da19, org.apache.myfaces.el.resolver.ImportConstantsELResolver@351dc544, org.apache.el.stream.StreamELResolverImpl@bfc7898, jakarta.el.StaticFieldELResolver@3fad0ae9, jakarta.el.MapELResolver@5c3f6e17, jakarta.el.ListELResolver@7d3a731, jakarta.el.ArrayELResolver@6f0327eb, jakarta.el.OptionalELResolver@38ae82a0, jakarta.el.RecordELResolver@1fc60c74, jakarta.el.BeanELResolver@5b6da92]
-[11/4/26, 1:25:01:611 WIB] 00000035 com.ibm.ws.webcontainer.webapp                               I SRVE0292I: Servlet Message - [jakartaee-hello-world]:.No state saving method defined, assuming default server state saving
-[11/4/26, 1:25:02:232 WIB] 0000004b com.ibm.ws.webcontainer.extension                            W SRVE0190E: File not found: /favicon.ico
+[11/11/26, 5:05:04:388 WIB] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0001I: The server defaultServer has been launched.
+[11/11/26, 5:05:05:454 WIB] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           I CWWKE0002I: The kernel started after 1.288 seconds
+[11/11/26, 5:05:05:484 WIB] 00000035 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0007I: Feature update started.
+[11/11/26, 5:05:05:793 WIB] 00000029 com.ibm.ws.security.ready.internal.SecurityReadyServiceImpl  I CWWKS0007I: The security service is starting...
+[11/11/26, 5:05:05:894 WIB] 0000002c com.ibm.ws.app.manager.internal.monitor.DropinMonitor        A CWWKZ0058I: Monitoring dropins for applications.
+[11/11/26, 5:05:06:301 WIB] 0000002a com.ibm.ws.cache.ServerCache                                 I DYNA1001I: WebSphere Dynamic Cache instance named baseCache initialized successfully.
+[11/11/26, 5:05:06:305 WIB] 0000002a com.ibm.ws.cache.ServerCache                                 I DYNA1071I: The cache provider default is being used.
+[11/11/26, 5:05:06:306 WIB] 0000002a com.ibm.ws.cache.CacheServiceImpl                            I DYNA1056I: Dynamic Cache (object cache) initialized successfully.
+[11/11/26, 5:05:06:452 WIB] 0000002b org.jboss.weld.Version                                       I WELD-000900: 6.0.2 (Final)
+[11/11/26, 5:05:10:702 WIB] 0000003d com.ibm.ws.security.token.ltpa.internal.LTPAKeyCreateTask    I CWWKS4105I: LTPA configuration is ready after 0.012 seconds.
+[11/11/26, 5:05:10:717 WIB] 00000029 com.ibm.ws.security.ready.internal.SecurityReadyServiceImpl  I CWWKS0008I: The security service is ready.
+[11/11/26, 5:05:10:723 WIB] 00000029 ibm.ws.security.authentication.internal.jaas.JAASServiceImpl I CWWKS1123I: The collective authentication plugin with class name NullCollectiveAuthenticationPlugin has been activated. 
+[11/11/26, 5:05:10:930 WIB] 00000031 com.ibm.ws.ssl.config.WSKeyStore                             I Successfully loaded default keystore: C:/PemrogramanWeb/UAS_PBO/project_jakarta_faces_group_4/target/liberty/wlp/usr/servers/defaultServer/resources/security/key.p12 of type: PKCS12
+[11/11/26, 5:05:11:013 WIB] 00000029 com.ibm.ws.security.jaspi.AuthConfigFactoryWrapper           I CWWKS1655I: The default Java Authentication SPI for Containers (JASPIC) AuthConfigFactory class com.ibm.ws.security.jaspi.ProviderRegistry is being used because the Java security property authconfigprovider.factory is not set. 
+[11/11/26, 5:05:11:228 WIB] 00000037 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application jakartaee-hello-world.
+[11/11/26, 5:05:11:229 WIB] 00000037 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: The jakartaee-hello-world application is using the loose application definition at the C:\PemrogramanWeb\UAS_PBO\project_jakarta_faces_group_4\target\liberty\wlp\usr\servers\defaultServer\apps\jakartaee-hello-world.war.xml location.
+[11/11/26, 5:05:12:325 WIB] 00000037 org.jboss.weld.Event                                         I WELD-000411: Observer method [BackedAnnotatedMethod] org.apache.myfaces.config.annotation.CdiAnnotationProviderExtension.processAnnotatedType(@Observes ProcessAnnotatedType<T>) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.
+[11/11/26, 5:05:12:392 WIB] 00000037 org.hibernate.validator.internal.util.Version                I HV000001: Hibernate Validator 9.0.0.Final
+[11/11/26, 5:05:13:233 WIB] 00000037 com.ibm.ws.session.WASSessionCore                            I SESN8501I: The session manager did not find a persistent storage location; HttpSession objects will be stored in the local application server's memory.
+[11/11/26, 5:05:13:247 WIB] 00000037 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: jakartaee-hello-world.
+[11/11/26, 5:05:13:250 WIB] 00000037 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module jakartaee-hello-world has been bound to default_host.
+[11/11/26, 5:05:13:252 WIB] 00000037 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://desktop-chf21k1:9080/
+[11/11/26, 5:05:13:274 WIB] 0000003d com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/
+[11/11/26, 5:05:13:288 WIB] 0000003d com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[11/11/26, 5:05:13:373 WIB] 0000003d com.ibm.ws.cache.CacheServiceImpl                            I DYNA1056I: Dynamic Cache (object cache) initialized successfully.
+[11/11/26, 5:05:13:382 WIB] 0000003d org.apache.myfaces.webapp.MyFacesContainerInitializer        I Using io.openliberty.faces40.internal.ee.WASMyFacesContainerInitializer
+[11/11/26, 5:05:13:631 WIB] 0000003d org.apache.myfaces.config.DefaultFacesConfigurationProvider  I Found jakarta.faces.application.ApplicationFactory factory implementation: io.openliberty.faces40.internal.config.WASApplicationFactoryImpl
+[11/11/26, 5:05:13:774 WIB] 0000003d org.apache.myfaces.util.ExternalSpecifications               I MyFaces Core Bean Validation support enabled
+[11/11/26, 5:05:13:956 WIB] 0000003d org.apache.myfaces.application.ApplicationImpl               I Couldn't discover the current project stage, using Production
+[11/11/26, 5:05:13:974 WIB] 0000003d org.apache.myfaces.view.facelets.ViewPoolProcessor           I org.apache.myfaces.CACHE_EL_EXPRESSIONS web config parameter is set to "noCache". To enable view pooling this param must be set to "alwaysRecompile". View Pooling disabled.
+[11/11/26, 5:05:13:986 WIB] 0000003d org.apache.myfaces.webapp.FacesInitializerImpl               I MyFaces Core has started, it took [550] ms.
+[11/11/26, 5:05:13:996 WIB] 0000003d com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0001I: Application jakartaee-hello-world started in 2.768 seconds.
+[11/11/26, 5:05:14:034 WIB] 00000035 com.ibm.ws.tcpchannel.internal.TCPPort                       I CWWKO0219I: TCP Channel defaultHttpEndpoint has been started and is now listening for requests on host *  (IPv6) port 9080.
+[11/11/26, 5:05:14:037 WIB] 00000035 com.ibm.ws.tcpchannel.internal.TCPPort                       I CWWKO0219I: TCP Channel defaultHttpEndpoint-ssl has been started and is now listening for requests on host *  (IPv6) port 9443.
+[11/11/26, 5:05:14:070 WIB] 00000035 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0012I: The server installed the following features: [appAuthentication-3.1, appSecurity-6.0, cdi-4.1, concurrent-3.1, data-1.0, distributedMap-1.0, enterpriseBeansLite-4.0, expressionLanguage-6.0, faces-4.1, jdbc-4.2, jndi-1.0, jsonb-3.0, jsonp-2.1, pages-4.0, persistence-3.2, persistenceContainer-3.2, restfulWS-4.0, restfulWSClient-4.0, servlet-6.1, ssl-1.0, transportSecurity-1.0, validation-3.1, webProfile-11.0, websocket-2.2].
+[11/11/26, 5:05:14:072 WIB] 00000035 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0008I: Feature update completed in 8.617 seconds.
+[11/11/26, 5:05:14:072 WIB] 00000035 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0011I: The defaultServer server is ready to run a smarter planet. The defaultServer server started in 9.906 seconds.
+[11/11/26, 5:05:14:109 WIB] 0000003d com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [jakartaee-hello-world] [/] [Faces Servlet]: Initialization successful.
+[11/11/26, 5:05:17:820 WIB] 0000003c com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at C:\PemrogramanWeb\UAS_PBO\project_jakarta_faces_group_4\target\liberty\wlp\usr\servers\defaultServer\logs\state\plugin-cfg.xml.
+[11/11/26, 5:05:20:994 WIB] 0000003c org.apache.myfaces.util.ExternalSpecifications               I MyFaces Core Servlet 6.0 support enabled
+[11/11/26, 5:05:21:090 WIB] 0000003c org.apache.myfaces.util.ExternalSpecifications               I MyFaces Core: EL 6.0 support enabled
+[11/11/26, 5:05:21:092 WIB] 0000003c org.apache.myfaces.el.ELResolverBuilder                      I Chain of EL resolvers: [org.apache.myfaces.el.resolver.implicitobject.ImplicitObjectResolver@6a6e7cc4, org.jboss.weld.module.web.el.WeldELResolver@296754f9, org.apache.myfaces.el.resolver.CompositeComponentELResolver@358365a6, org.apache.myfaces.el.resolver.FlashELResolver@5a218bf4, org.apache.myfaces.el.resolver.ResourceResolver@43b05428, jakarta.el.ResourceBundleELResolver@5063003b, org.apache.myfaces.el.resolver.ResourceBundleResolver@7e63f1c4, org.apache.myfaces.el.resolver.ImportConstantsELResolver@284bbbd7, org.apache.el.stream.StreamELResolverImpl@699babe2, jakarta.el.StaticFieldELResolver@21b11c32, jakarta.el.MapELResolver@40bd2411, jakarta.el.ListELResolver@35ddaad2, jakarta.el.ArrayELResolver@1add330, jakarta.el.OptionalELResolver@28541fbb, jakarta.el.RecordELResolver@1e02b0c, jakarta.el.BeanELResolver@59b39ad8]
+[11/11/26, 5:05:21:125 WIB] 0000003c com.ibm.ws.webcontainer.webapp                               I SRVE0292I: Servlet Message - [jakartaee-hello-world]:.No state saving method defined, assuming default server state saving
+[11/11/26, 5:05:28:627 WIB] 00000035 org.apache.myfaces.context.ExceptionHandlerImpl              E jakarta.el.MethodNotFoundException occurred while processing RENDER_RESPONSE [Location=]
+jakarta.el.MethodNotFoundException: Method not found: class org.eclipse.jakarta.hello.DashboardBean.inputType(java.lang.Integer)
+	at jakarta.el.Util.findWrapper(Util.java:274)
+	at jakarta.el.Util.findMethod(Util.java:118)
+	at jakarta.el.BeanELResolver.invoke(BeanELResolver.java:136)
+	at jakarta.el.CompositeELResolver.invoke(CompositeELResolver.java:120)
+	at org.apache.el.parser.AstValue.getValue(AstValue.java:142)
+	at org.apache.el.parser.AstEqual.getValue(AstEqual.java:32)
+	at org.apache.el.ValueExpressionImpl.getValue(ValueExpressionImpl.java:150)
+	at org.apache.myfaces.view.facelets.el.ContextAwareTagValueExpression.getValue(ContextAwareTagValueExpression.java:100)
+	at jakarta.faces.component._DeltaStateHelper.eval(_DeltaStateHelper.java:354)
+	at jakarta.faces.component.UIComponentBase.isRendered(UIComponentBase.java:1140)
+	at jakarta.faces.component.UIComponentBase.encodeAll(UIComponentBase.java:473)
+	at org.apache.myfaces.view.facelets.component.RepeatRenderer.encodeChildren(RepeatRenderer.java:78)
+	at org.apache.myfaces.view.facelets.component.UIRepeat.process(UIRepeat.java:1432)
+	at org.apache.myfaces.view.facelets.component.UIRepeat.encodeChildren(UIRepeat.java:2125)
+	at jakarta.faces.component.UIComponentBase.encodeAll(UIComponentBase.java:510)
+	at jakarta.faces.component.UIComponentBase.encodeAll(UIComponentBase.java:519)
+	at org.apache.myfaces.renderkit.RendererUtils.renderChildren(RendererUtils.java:536)
+	at org.apache.myfaces.renderkit.html.base.HtmlGroupRendererBase.encodeEnd(HtmlGroupRendererBase.java:154)
+	at jakarta.faces.component.UIComponentBase.encodeEnd(UIComponentBase.java:634)
+	at jakarta.faces.component.UIComponentBase.encodeAll(UIComponentBase.java:523)
+	at jakarta.faces.component.UIComponentBase.encodeAll(UIComponentBase.java:519)
+	at jakarta.faces.component.UIComponentBase.encodeAll(UIComponentBase.java:519)
+	at org.apache.myfaces.view.facelets.FaceletViewDeclarationLanguage.renderView(FaceletViewDeclarationLanguage.java:1779)
+	at org.apache.myfaces.application.ViewHandlerImpl.renderView(ViewHandlerImpl.java:316)
+	at jakarta.faces.application.ViewHandlerWrapper.renderView(ViewHandlerWrapper.java:74)
+	at org.apache.myfaces.lifecycle.RenderResponseExecutor.execute(RenderResponseExecutor.java:122)
+	at org.apache.myfaces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:241)
+	at jakarta.faces.webapp.FacesServlet.service(FacesServlet.java:225)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.service(ServletWrapper.java:1262)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:751)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:448)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.invokeTarget(WebAppFilterChain.java:197)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:100)
+	at com.ibm.ws.security.jaspi.JaspiServletFilter.doFilter(JaspiServletFilter.java:58)
+	at com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter(FilterInstanceWrapper.java:203)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:93)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.doFilter(WebAppFilterManager.java:1069)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.invokeFilters(WebAppFilterManager.java:1260)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.invokeFilters(WebAppFilterManager.java:1078)
+	at com.ibm.ws.webcontainer.servlet.CacheServletWrapper.handleRequest(CacheServletWrapper.java:77)
+	at com.ibm.ws.webcontainer40.servlet.CacheServletWrapper40.handleRequest(CacheServletWrapper40.java:87)
+	at com.ibm.ws.webcontainer.WebContainer.handleRequest(WebContainer.java:978)
+	at com.ibm.ws.webcontainer.osgi.DynamicVirtualHost$2.run(DynamicVirtualHost.java:293)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink$TaskWrapper.run(HttpDispatcherLink.java:1843)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink.wrapHandlerAndExecute(HttpDispatcherLink.java:1008)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink.ready(HttpDispatcherLink.java:968)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleDiscrimination(HttpInboundLink.java:574)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleNewRequest(HttpInboundLink.java:505)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.processRequest(HttpInboundLink.java:365)
+	at com.ibm.ws.http.channel.internal.inbound.HttpICLReadCallback.complete(HttpICLReadCallback.java:72)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.requestComplete(WorkQueueManager.java:513)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.attemptIO(WorkQueueManager.java:583)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.workerRun(WorkQueueManager.java:967)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager$Worker.run(WorkQueueManager.java:1056)
+	at com.ibm.ws.threading.internal.ExecutorServiceImpl$RunnableWrapper.run(ExecutorServiceImpl.java:316)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[11/11/26, 5:05:28:634 WIB] 00000035 com.ibm.ws.webcontainer.srt                                  W SRVE8115W: WARNING: Cannot set status. Response already committed.
+[11/11/26, 5:05:28:776 WIB] 00000035 com.ibm.ws.webcontainer.util.ApplicationErrorUtils           E SRVE0777E: Exception thrown by application class 'jakarta.faces.webapp.FacesServlet.service:255'
+jakarta.servlet.ServletException: jakarta.el.MethodNotFoundException: Method not found: class org.eclipse.jakarta.hello.DashboardBean.inputType(java.lang.Integer)
+	at jakarta.faces.webapp.FacesServlet.service(FacesServlet.java:255)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.service(ServletWrapper.java:1262)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:751)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:448)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.invokeTarget(WebAppFilterChain.java:197)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:100)
+	at com.ibm.ws.security.jaspi.JaspiServletFilter.doFilter(JaspiServletFilter.java:58)
+	at com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter(FilterInstanceWrapper.java:203)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:93)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.doFilter(WebAppFilterManager.java:1069)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.invokeFilters(WebAppFilterManager.java:1260)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.invokeFilters(WebAppFilterManager.java:1078)
+	at com.ibm.ws.webcontainer.servlet.CacheServletWrapper.handleRequest(CacheServletWrapper.java:77)
+	at com.ibm.ws.webcontainer40.servlet.CacheServletWrapper40.handleRequest(CacheServletWrapper40.java:87)
+	at com.ibm.ws.webcontainer.WebContainer.handleRequest(WebContainer.java:978)
+	at com.ibm.ws.webcontainer.osgi.DynamicVirtualHost$2.run(DynamicVirtualHost.java:293)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink$TaskWrapper.run(HttpDispatcherLink.java:1843)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink.wrapHandlerAndExecute(HttpDispatcherLink.java:1008)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink.ready(HttpDispatcherLink.java:968)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleDiscrimination(HttpInboundLink.java:574)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleNewRequest(HttpInboundLink.java:505)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.processRequest(HttpInboundLink.java:365)
+	at com.ibm.ws.http.channel.internal.inbound.HttpICLReadCallback.complete(HttpICLReadCallback.java:72)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.requestComplete(WorkQueueManager.java:513)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.attemptIO(WorkQueueManager.java:583)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.workerRun(WorkQueueManager.java:967)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager$Worker.run(WorkQueueManager.java:1056)
+	at com.ibm.ws.threading.internal.ExecutorServiceImpl$RunnableWrapper.run(ExecutorServiceImpl.java:316)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.apache.myfaces.view.facelets.el.ContextAwareELException: jakarta.el.MethodNotFoundException: Method not found: class org.eclipse.jakarta.hello.DashboardBean.inputType(java.lang.Integer)
+	at org.apache.myfaces.view.facelets.el.ContextAwareTagValueExpression.getValue(ContextAwareTagValueExpression.java:108)
+	at jakarta.faces.component._DeltaStateHelper.eval(_DeltaStateHelper.java:354)
+	at jakarta.faces.component.UIComponentBase.isRendered(UIComponentBase.java:1140)
+	at jakarta.faces.component.UIComponentBase.encodeAll(UIComponentBase.java:473)
+	at org.apache.myfaces.view.facelets.component.RepeatRenderer.encodeChildren(RepeatRenderer.java:78)
+	at org.apache.myfaces.view.facelets.component.UIRepeat.process(UIRepeat.java:1432)
+	at org.apache.myfaces.view.facelets.component.UIRepeat.encodeChildren(UIRepeat.java:2125)
+	at jakarta.faces.component.UIComponentBase.encodeAll(UIComponentBase.java:510)
+	at jakarta.faces.component.UIComponentBase.encodeAll(UIComponentBase.java:519)
+	at org.apache.myfaces.renderkit.RendererUtils.renderChildren(RendererUtils.java:536)
+	at org.apache.myfaces.renderkit.html.base.HtmlGroupRendererBase.encodeEnd(HtmlGroupRendererBase.java:154)
+	at jakarta.faces.component.UIComponentBase.encodeEnd(UIComponentBase.java:634)
+	at jakarta.faces.component.UIComponentBase.encodeAll(UIComponentBase.java:523)
+	at jakarta.faces.component.UIComponentBase.encodeAll(UIComponentBase.java:519)
+	at jakarta.faces.component.UIComponentBase.encodeAll(UIComponentBase.java:519)
+	at org.apache.myfaces.view.facelets.FaceletViewDeclarationLanguage.renderView(FaceletViewDeclarationLanguage.java:1779)
+	at org.apache.myfaces.application.ViewHandlerImpl.renderView(ViewHandlerImpl.java:316)
+	at jakarta.faces.application.ViewHandlerWrapper.renderView(ViewHandlerWrapper.java:74)
+	at org.apache.myfaces.lifecycle.RenderResponseExecutor.execute(RenderResponseExecutor.java:122)
+	at org.apache.myfaces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:241)
+	at jakarta.faces.webapp.FacesServlet.service(FacesServlet.java:225)
+	... 30 more
+Caused by: jakarta.el.MethodNotFoundException: Method not found: class org.eclipse.jakarta.hello.DashboardBean.inputType(java.lang.Integer)
+	at jakarta.el.Util.findWrapper(Util.java:274)
+	at jakarta.el.Util.findMethod(Util.java:118)
+	at jakarta.el.BeanELResolver.invoke(BeanELResolver.java:136)
+	at jakarta.el.CompositeELResolver.invoke(CompositeELResolver.java:120)
+	at org.apache.el.parser.AstValue.getValue(AstValue.java:142)
+	at org.apache.el.parser.AstEqual.getValue(AstEqual.java:32)
+	at org.apache.el.ValueExpressionImpl.getValue(ValueExpressionImpl.java:150)
+	at org.apache.myfaces.view.facelets.el.ContextAwareTagValueExpression.getValue(ContextAwareTagValueExpression.java:100)
+	... 50 more
+
+[11/11/26, 5:05:29:015 WIB] 00000035 com.ibm.ws.logging.internal.impl.IncidentImpl                I FFDC1015I: An FFDC Incident has been created: "jakarta.servlet.ServletException: jakarta.el.MethodNotFoundException: Method not found: class org.eclipse.jakarta.hello.DashboardBean.inputType(java.lang.Integer) com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter 82" at ffdc_26.11.11_05.05.28.0.log
+[11/11/26, 5:05:29:060 WIB] 00000035 com.ibm.ws.logging.internal.impl.IncidentImpl                I FFDC1015I: An FFDC Incident has been created: "jakarta.servlet.ServletException: jakarta.el.MethodNotFoundException: Method not found: class org.eclipse.jakarta.hello.DashboardBean.inputType(java.lang.Integer) com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter 144" at ffdc_26.11.11_05.05.29.0.log
+[11/11/26, 5:05:29:062 WIB] 00000035 com.ibm.ws.logging.internal.impl.IncidentImpl                I FFDC1015I: An FFDC Incident has been created: "jakarta.servlet.ServletException: jakarta.el.MethodNotFoundException: Method not found: class org.eclipse.jakarta.hello.DashboardBean.inputType(java.lang.Integer) com.ibm.ws.webcontainer.filter.WebAppFilterManager.invokeFilters 1064" at ffdc_26.11.11_05.05.29.1.log
+[11/11/26, 5:05:29:063 WIB] 00000035 com.ibm.ws.webcontainer.srt                                  W SRVE8115W: WARNING: Cannot set status. Response already committed.
+[11/11/26, 5:05:29:066 WIB] 00000035 com.ibm.ws.webcontainer.srt                                  W SRVE8094W: WARNING: Cannot set header. Response already committed.  Stack trace of errant attempt to set header: 
+        at com.ibm.ws.webcontainer.srt.SRTServletResponse.addHeader(SRTServletResponse.java:2311)
+        at [internal classes].(Unknown Source)
+
+[11/11/26, 5:05:31:372 WIB] 00000055 org.apache.myfaces.context.ExceptionHandlerImpl              E jakarta.faces.application.ViewExpiredException occurred while processing RESTORE_VIEW [Location=]
+[11/11/26, 5:05:31:373 WIB] 00000055 com.ibm.ws.webcontainer.util.ApplicationErrorUtils           E SRVE0777E: Exception thrown by application class 'jakarta.faces.webapp.FacesServlet.service:239'
+jakarta.servlet.ServletException: View "/dashboard.xhtml" could not be restored.
+	at jakarta.faces.webapp.FacesServlet.service(FacesServlet.java:239)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.service(ServletWrapper.java:1262)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:751)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:448)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.invokeTarget(WebAppFilterChain.java:197)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:100)
+	at com.ibm.ws.security.jaspi.JaspiServletFilter.doFilter(JaspiServletFilter.java:58)
+	at com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter(FilterInstanceWrapper.java:203)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:93)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.doFilter(WebAppFilterManager.java:1069)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.invokeFilters(WebAppFilterManager.java:1260)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.invokeFilters(WebAppFilterManager.java:1078)
+	at com.ibm.ws.webcontainer.servlet.CacheServletWrapper.handleRequest(CacheServletWrapper.java:77)
+	at com.ibm.ws.webcontainer40.servlet.CacheServletWrapper40.handleRequest(CacheServletWrapper40.java:87)
+	at com.ibm.ws.webcontainer.WebContainer.handleRequest(WebContainer.java:978)
+	at com.ibm.ws.webcontainer.osgi.DynamicVirtualHost$2.run(DynamicVirtualHost.java:293)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink$TaskWrapper.run(HttpDispatcherLink.java:1843)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink.wrapHandlerAndExecute(HttpDispatcherLink.java:1008)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink.ready(HttpDispatcherLink.java:968)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleDiscrimination(HttpInboundLink.java:574)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleNewRequest(HttpInboundLink.java:505)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.processRequest(HttpInboundLink.java:365)
+	at com.ibm.ws.http.channel.internal.inbound.HttpICLReadCallback.complete(HttpICLReadCallback.java:72)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.requestComplete(WorkQueueManager.java:513)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.attemptIO(WorkQueueManager.java:583)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.workerRun(WorkQueueManager.java:967)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager$Worker.run(WorkQueueManager.java:1056)
+	at com.ibm.ws.threading.internal.ExecutorServiceImpl$RunnableWrapper.run(ExecutorServiceImpl.java:316)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: jakarta.faces.application.ViewExpiredException: View "/dashboard.xhtml" could not be restored.
+	at org.apache.myfaces.lifecycle.RestoreViewExecutor.execute(RestoreViewExecutor.java:183)
+	at org.apache.myfaces.lifecycle.LifecycleImpl.executePhase(LifecycleImpl.java:172)
+	at org.apache.myfaces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:125)
+	at jakarta.faces.webapp.FacesServlet.service(FacesServlet.java:223)
+	... 30 more
+
+[11/11/26, 5:05:31:558 WIB] 00000055 com.ibm.ws.logging.internal.impl.IncidentImpl                I FFDC1015I: An FFDC Incident has been created: "jakarta.servlet.ServletException: View "/dashboard.xhtml" could not be restored. com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter 82" at ffdc_26.11.11_05.05.31.0.log
+[11/11/26, 5:05:31:587 WIB] 00000055 com.ibm.ws.logging.internal.impl.IncidentImpl                I FFDC1015I: An FFDC Incident has been created: "jakarta.servlet.ServletException: View "/dashboard.xhtml" could not be restored. com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter 144" at ffdc_26.11.11_05.05.31.1.log
+[11/11/26, 5:05:31:588 WIB] 00000055 com.ibm.ws.logging.internal.impl.IncidentImpl                I FFDC1015I: An FFDC Incident has been created: "jakarta.servlet.ServletException: View "/dashboard.xhtml" could not be restored. com.ibm.ws.webcontainer.filter.WebAppFilterManager.invokeFilters 1064" at ffdc_26.11.11_05.05.31.2.log
+[11/11/26, 5:14:35:162 WIB] 0000023f com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://desktop-chf21k1:9080/
+[11/11/26, 5:14:35:163 WIB] 0000023f com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [jakartaee-hello-world] [/] [Faces Servlet]: Destroy successful.
+[11/11/26, 5:14:35:191 WIB] 0000023f com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: The application jakartaee-hello-world has stopped successfully.
+[11/11/26, 5:14:35:203 WIB] 0000023f com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application jakartaee-hello-world.
+[11/11/26, 5:14:35:203 WIB] 0000023f bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: The jakartaee-hello-world application is using the loose application definition at the C:\PemrogramanWeb\UAS_PBO\project_jakarta_faces_group_4\target\liberty\wlp\usr\servers\defaultServer\apps\jakartaee-hello-world.war.xml location.
+[11/11/26, 5:14:35:537 WIB] 0000023f com.ibm.ws.annocache                                         W [ TargetsTableImpl@366ec5c7 ] ANNO_TARGETS_CORRUPT_CLASS [ org.eclipse.jakarta.hello.DashboardField ] (java.lang.ArrayIndexOutOfBoundsException: Index 6 out of bounds for length 0
+	at org.objectweb.asm.ClassReader.readShort(ClassReader.java:3638)
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:198)
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:180)
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:166)
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:288)
+	at com.ibm.ws.annocache.targets.internal.TargetsTableImpl.apply(TargetsTableImpl.java:1295)
+	at com.ibm.ws.annocache.targets.internal.TargetsTableImpl$1.process(TargetsTableImpl.java:837)
+	at com.ibm.ws.annocache.classsource.internal.ClassSourceImpl_MappedContainer.processEntry(ClassSourceImpl_MappedContainer.java:361)
+	at com.ibm.ws.annocache.classsource.internal.ClassSourceImpl_MappedContainer.processContainer(ClassSourceImpl_MappedContainer.java:316)
+	at com.ibm.ws.annocache.classsource.internal.ClassSourceImpl_MappedContainer.processContainer(ClassSourceImpl_MappedContainer.java:285)
+	at com.ibm.ws.annocache.classsource.internal.ClassSourceImpl_MappedContainer.processContainer(ClassSourceImpl_MappedContainer.java:285)
+	at com.ibm.ws.annocache.classsource.internal.ClassSourceImpl_MappedContainer.processContainer(ClassSourceImpl_MappedContainer.java:285)
+	at com.ibm.ws.annocache.classsource.internal.ClassSourceImpl_MappedContainer.processContainer(ClassSourceImpl_MappedContainer.java:285)
+	at com.ibm.ws.annocache.classsource.internal.ClassSourceImpl_MappedContainer.processFromScratch(ClassSourceImpl_MappedContainer.java:187)
+	at com.ibm.ws.annocache.classsource.internal.ClassSourceImpl.process(ClassSourceImpl.java:574)
+	at com.ibm.ws.annocache.targets.internal.TargetsTableImpl.scanInternal(TargetsTableImpl.java:896)
+	at com.ibm.ws.annocache.targets.internal.TargetsScannerBaseImpl.scanInternal(TargetsScannerBaseImpl.java:474)
+	at com.ibm.ws.annocache.targets.internal.TargetsScannerOverallImpl.validInternalContainer(TargetsScannerOverallImpl.java:884)
+	at com.ibm.ws.annocache.targets.internal.TargetsScannerOverallImpl.validInternalContainers(TargetsScannerOverallImpl.java:1027)
+	at com.ibm.ws.annocache.targets.internal.TargetsScannerOverallImpl.validInternalContainers_Select(TargetsScannerOverallImpl.java:978)
+	at com.ibm.ws.annocache.targets.internal.TargetsScannerOverallImpl.validInternalUnresolved(TargetsScannerOverallImpl.java:1570)
+	at com.ibm.ws.annocache.targets.internal.TargetsScannerOverallImpl.validInternal(TargetsScannerOverallImpl.java:2094)
+	at com.ibm.ws.annocache.targets.internal.AnnotationTargetsImpl_Targets.ensureInternalResults(AnnotationTargetsImpl_Targets.java:731)
+	at com.ibm.ws.annocache.targets.internal.AnnotationTargetsImpl_Targets.selectAnnotatedTargets(AnnotationTargetsImpl_Targets.java:1824)
+	at com.ibm.ws.annocache.targets.internal.AnnotationTargetsImpl_Targets.getAnnotatedClasses(AnnotationTargetsImpl_Targets.java:1426)
+	at com.ibm.ws.container.service.annocache.internal.AnnotationsImpl.checkForWrongPackageCommonAnnotations(AnnotationsImpl.java:919)
+	at com.ibm.ws.container.service.annocache.internal.AnnotationsImpl.getTargets(AnnotationsImpl.java:967)
+	at com.ibm.ws.container.service.annocache.internal.AnnotationsImpl.getClassesWithSpecifiedInheritedAnnotations(AnnotationsImpl.java:1264)
+	at com.ibm.ws.cdi.internal.archive.liberty.CDIArchiveImpl.getAnnotatedClassesPostBeta(CDIArchiveImpl.java:634)
+	at com.ibm.ws.cdi.internal.archive.liberty.CDIArchiveImpl.getAnnotatedClasses(CDIArchiveImpl.java:458)
+	at com.ibm.ws.cdi.internal.archive.AbstractCDIArchive.getBeanDefiningAnnotations(AbstractCDIArchive.java:298)
+	at com.ibm.ws.cdi.impl.weld.BeanDeploymentArchiveImpl.scanForBeanDefiningAnnotations(BeanDeploymentArchiveImpl.java:208)
+	at com.ibm.ws.cdi.impl.weld.BeanDeploymentArchiveImpl.scanForBeanDefiningAnnotations(BeanDeploymentArchiveImpl.java:221)
+	at com.ibm.ws.cdi.impl.weld.WebSphereCDIDeploymentImpl.scan(WebSphereCDIDeploymentImpl.java:644)
+	at com.ibm.ws.cdi.impl.CDIContainerImpl.startInitialization(CDIContainerImpl.java:145)
+	at com.ibm.ws.cdi.liberty.CDIRuntimeImpl.applicationStarting(CDIRuntimeImpl.java:485)
+	at com.ibm.ws.container.service.state.internal.ApplicationStateManager.fireStarting(ApplicationStateManager.java:53)
+	at com.ibm.ws.container.service.state.internal.StateChangeServiceImpl.fireApplicationStarting(StateChangeServiceImpl.java:52)
+	at com.ibm.ws.app.manager.module.internal.SimpleDeployedAppInfoBase.preDeployApp(SimpleDeployedAppInfoBase.java:623)
+	at com.ibm.ws.app.manager.module.internal.SimpleDeployedAppInfoBase.installApp(SimpleDeployedAppInfoBase.java:584)
+	at com.ibm.ws.app.manager.module.internal.DeployedAppInfoBase.deployApp(DeployedAppInfoBase.java:634)
+	at com.ibm.ws.app.manager.war.internal.WARApplicationHandlerImpl.install(WARApplicationHandlerImpl.java:67)
+	at com.ibm.ws.app.manager.internal.statemachine.StartAction.execute(StartAction.java:199)
+	at com.ibm.ws.app.manager.internal.statemachine.ApplicationStateMachineImpl.enterState(ApplicationStateMachineImpl.java:1369)
+	at com.ibm.ws.app.manager.internal.statemachine.ApplicationStateMachineImpl.performAction(ApplicationStateMachineImpl.java:1233)
+	at com.ibm.ws.app.manager.internal.statemachine.ApplicationStateMachineImpl.run(ApplicationStateMachineImpl.java:920)
+	at com.ibm.ws.threading.internal.ExecutorServiceImpl$RunnableWrapper.run(ExecutorServiceImpl.java:316)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+ : Index 6 out of bounds for length 0)
+[11/11/26, 5:14:35:540 WIB] 0000023f com.ibm.ws.annocache                                         W Corrupt class
+java.lang.ArrayIndexOutOfBoundsException: Index 6 out of bounds for length 0
+	at org.objectweb.asm.ClassReader.readShort(ClassReader.java:3638)
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:198)
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:180)
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:166)
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:288)
+	at com.ibm.ws.annocache.targets.internal.TargetsTableImpl.apply(TargetsTableImpl.java:1295)
+	at com.ibm.ws.annocache.targets.internal.TargetsTableImpl$1.process(TargetsTableImpl.java:837)
+	at com.ibm.ws.annocache.classsource.internal.ClassSourceImpl_MappedContainer.processEntry(ClassSourceImpl_MappedContainer.java:361)
+	at com.ibm.ws.annocache.classsource.internal.ClassSourceImpl_MappedContainer.processContainer(ClassSourceImpl_MappedContainer.java:316)
+	at com.ibm.ws.annocache.classsource.internal.ClassSourceImpl_MappedContainer.processContainer(ClassSourceImpl_MappedContainer.java:285)
+	at com.ibm.ws.annocache.classsource.internal.ClassSourceImpl_MappedContainer.processContainer(ClassSourceImpl_MappedContainer.java:285)
+	at com.ibm.ws.annocache.classsource.internal.ClassSourceImpl_MappedContainer.processContainer(ClassSourceImpl_MappedContainer.java:285)
+	at com.ibm.ws.annocache.classsource.internal.ClassSourceImpl_MappedContainer.processContainer(ClassSourceImpl_MappedContainer.java:285)
+	at com.ibm.ws.annocache.classsource.internal.ClassSourceImpl_MappedContainer.processFromScratch(ClassSourceImpl_MappedContainer.java:187)
+	at com.ibm.ws.annocache.classsource.internal.ClassSourceImpl.process(ClassSourceImpl.java:574)
+	at com.ibm.ws.annocache.targets.internal.TargetsTableImpl.scanInternal(TargetsTableImpl.java:896)
+	at com.ibm.ws.annocache.targets.internal.TargetsScannerBaseImpl.scanInternal(TargetsScannerBaseImpl.java:474)
+	at com.ibm.ws.annocache.targets.internal.TargetsScannerOverallImpl.validInternalContainer(TargetsScannerOverallImpl.java:884)
+	at com.ibm.ws.annocache.targets.internal.TargetsScannerOverallImpl.validInternalContainers(TargetsScannerOverallImpl.java:1027)
+	at com.ibm.ws.annocache.targets.internal.TargetsScannerOverallImpl.validInternalContainers_Select(TargetsScannerOverallImpl.java:978)
+	at com.ibm.ws.annocache.targets.internal.TargetsScannerOverallImpl.validInternalUnresolved(TargetsScannerOverallImpl.java:1570)
+	at com.ibm.ws.annocache.targets.internal.TargetsScannerOverallImpl.validInternal(TargetsScannerOverallImpl.java:2094)
+	at com.ibm.ws.annocache.targets.internal.AnnotationTargetsImpl_Targets.ensureInternalResults(AnnotationTargetsImpl_Targets.java:731)
+	at com.ibm.ws.annocache.targets.internal.AnnotationTargetsImpl_Targets.selectAnnotatedTargets(AnnotationTargetsImpl_Targets.java:1824)
+	at com.ibm.ws.annocache.targets.internal.AnnotationTargetsImpl_Targets.getAnnotatedClasses(AnnotationTargetsImpl_Targets.java:1426)
+	at com.ibm.ws.container.service.annocache.internal.AnnotationsImpl.checkForWrongPackageCommonAnnotations(AnnotationsImpl.java:919)
+	at com.ibm.ws.container.service.annocache.internal.AnnotationsImpl.getTargets(AnnotationsImpl.java:967)
+	at com.ibm.ws.container.service.annocache.internal.AnnotationsImpl.getClassesWithSpecifiedInheritedAnnotations(AnnotationsImpl.java:1264)
+	at com.ibm.ws.cdi.internal.archive.liberty.CDIArchiveImpl.getAnnotatedClassesPostBeta(CDIArchiveImpl.java:634)
+	at com.ibm.ws.cdi.internal.archive.liberty.CDIArchiveImpl.getAnnotatedClasses(CDIArchiveImpl.java:458)
+	at com.ibm.ws.cdi.internal.archive.AbstractCDIArchive.getBeanDefiningAnnotations(AbstractCDIArchive.java:298)
+	at com.ibm.ws.cdi.impl.weld.BeanDeploymentArchiveImpl.scanForBeanDefiningAnnotations(BeanDeploymentArchiveImpl.java:208)
+	at com.ibm.ws.cdi.impl.weld.BeanDeploymentArchiveImpl.scanForBeanDefiningAnnotations(BeanDeploymentArchiveImpl.java:221)
+	at com.ibm.ws.cdi.impl.weld.WebSphereCDIDeploymentImpl.scan(WebSphereCDIDeploymentImpl.java:644)
+	at com.ibm.ws.cdi.impl.CDIContainerImpl.startInitialization(CDIContainerImpl.java:145)
+	at com.ibm.ws.cdi.liberty.CDIRuntimeImpl.applicationStarting(CDIRuntimeImpl.java:485)
+	at com.ibm.ws.container.service.state.internal.ApplicationStateManager.fireStarting(ApplicationStateManager.java:53)
+	at com.ibm.ws.container.service.state.internal.StateChangeServiceImpl.fireApplicationStarting(StateChangeServiceImpl.java:52)
+	at com.ibm.ws.app.manager.module.internal.SimpleDeployedAppInfoBase.preDeployApp(SimpleDeployedAppInfoBase.java:623)
+	at com.ibm.ws.app.manager.module.internal.SimpleDeployedAppInfoBase.installApp(SimpleDeployedAppInfoBase.java:584)
+	at com.ibm.ws.app.manager.module.internal.DeployedAppInfoBase.deployApp(DeployedAppInfoBase.java:634)
+	at com.ibm.ws.app.manager.war.internal.WARApplicationHandlerImpl.install(WARApplicationHandlerImpl.java:67)
+	at com.ibm.ws.app.manager.internal.statemachine.StartAction.execute(StartAction.java:199)
+	at com.ibm.ws.app.manager.internal.statemachine.ApplicationStateMachineImpl.enterState(ApplicationStateMachineImpl.java:1369)
+	at com.ibm.ws.app.manager.internal.statemachine.ApplicationStateMachineImpl.performAction(ApplicationStateMachineImpl.java:1233)
+	at com.ibm.ws.app.manager.internal.statemachine.ApplicationStateMachineImpl.run(ApplicationStateMachineImpl.java:920)
+	at com.ibm.ws.threading.internal.ExecutorServiceImpl$RunnableWrapper.run(ExecutorServiceImpl.java:316)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[11/11/26, 5:14:35:879 WIB] 0000023f org.jboss.weld.Event                                         I WELD-000411: Observer method [BackedAnnotatedMethod] org.apache.myfaces.config.annotation.CdiAnnotationProviderExtension.processAnnotatedType(@Observes ProcessAnnotatedType<T>) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.
+[11/11/26, 5:14:36:384 WIB] 0000023f com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: jakartaee-hello-world.
+[11/11/26, 5:14:36:385 WIB] 0000023f com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module jakartaee-hello-world has been bound to default_host.
+[11/11/26, 5:14:36:385 WIB] 0000023f com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://desktop-chf21k1:9080/
+[11/11/26, 5:14:36:386 WIB] 00000225 com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/
+[11/11/26, 5:14:36:386 WIB] 00000225 com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[11/11/26, 5:14:36:431 WIB] 00000225 org.apache.myfaces.webapp.MyFacesContainerInitializer        I Using io.openliberty.faces40.internal.ee.WASMyFacesContainerInitializer
+[11/11/26, 5:14:36:490 WIB] 00000225 org.apache.myfaces.config.DefaultFacesConfigurationProvider  I Found jakarta.faces.application.ApplicationFactory factory implementation: io.openliberty.faces40.internal.config.WASApplicationFactoryImpl
+[11/11/26, 5:14:36:579 WIB] 00000225 org.apache.myfaces.application.ApplicationImpl               I Couldn't discover the current project stage, using Production
+[11/11/26, 5:14:36:581 WIB] 00000225 org.apache.myfaces.view.facelets.ViewPoolProcessor           I org.apache.myfaces.CACHE_EL_EXPRESSIONS web config parameter is set to "noCache". To enable view pooling this param must be set to "alwaysRecompile". View Pooling disabled.
+[11/11/26, 5:14:36:581 WIB] 00000225 org.apache.myfaces.webapp.FacesInitializerImpl               I MyFaces Core has started, it took [146] ms.
+[11/11/26, 5:14:36:583 WIB] 00000225 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: The application jakartaee-hello-world updated in 1.381 seconds.
+[11/11/26, 5:14:36:604 WIB] 00000225 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [jakartaee-hello-world] [/] [Faces Servlet]: Initialization successful.
+[11/11/26, 5:14:36:607 WIB] 000001cb com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://desktop-chf21k1:9080/
+[11/11/26, 5:14:36:607 WIB] 000001cb com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [jakartaee-hello-world] [/] [Faces Servlet]: Destroy successful.
+[11/11/26, 5:14:36:615 WIB] 000001cb com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: The application jakartaee-hello-world has stopped successfully.
+[11/11/26, 5:14:36:624 WIB] 000001cb com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application jakartaee-hello-world.
+[11/11/26, 5:14:36:625 WIB] 000001cb bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: The jakartaee-hello-world application is using the loose application definition at the C:\PemrogramanWeb\UAS_PBO\project_jakarta_faces_group_4\target\liberty\wlp\usr\servers\defaultServer\apps\jakartaee-hello-world.war.xml location.
+[11/11/26, 5:14:36:867 WIB] 000001cb org.jboss.weld.Event                                         I WELD-000411: Observer method [BackedAnnotatedMethod] org.apache.myfaces.config.annotation.CdiAnnotationProviderExtension.processAnnotatedType(@Observes ProcessAnnotatedType<T>) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.
+[11/11/26, 5:14:37:137 WIB] 000001cb com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: jakartaee-hello-world.
+[11/11/26, 5:14:37:137 WIB] 000001cb com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module jakartaee-hello-world has been bound to default_host.
+[11/11/26, 5:14:37:138 WIB] 000001cb com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://desktop-chf21k1:9080/
+[11/11/26, 5:14:37:139 WIB] 000001b6 com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/
+[11/11/26, 5:14:37:139 WIB] 000001b6 com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[11/11/26, 5:14:37:169 WIB] 000001b6 org.apache.myfaces.webapp.MyFacesContainerInitializer        I Using io.openliberty.faces40.internal.ee.WASMyFacesContainerInitializer
+[11/11/26, 5:14:37:199 WIB] 000001b6 org.apache.myfaces.config.DefaultFacesConfigurationProvider  I Found jakarta.faces.application.ApplicationFactory factory implementation: io.openliberty.faces40.internal.config.WASApplicationFactoryImpl
+[11/11/26, 5:14:37:260 WIB] 000001b6 org.apache.myfaces.application.ApplicationImpl               I Couldn't discover the current project stage, using Production
+[11/11/26, 5:14:37:261 WIB] 000001b6 org.apache.myfaces.view.facelets.ViewPoolProcessor           I org.apache.myfaces.CACHE_EL_EXPRESSIONS web config parameter is set to "noCache". To enable view pooling this param must be set to "alwaysRecompile". View Pooling disabled.
+[11/11/26, 5:14:37:261 WIB] 000001b6 org.apache.myfaces.webapp.FacesInitializerImpl               I MyFaces Core has started, it took [89] ms.
+[11/11/26, 5:14:37:263 WIB] 000001b6 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: The application jakartaee-hello-world updated in 0.638 seconds.
+[11/11/26, 5:14:37:278 WIB] 000001b6 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [jakartaee-hello-world] [/] [Faces Servlet]: Initialization successful.
+[11/11/26, 5:14:39:884 WIB] 0000021d com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at C:\PemrogramanWeb\UAS_PBO\project_jakarta_faces_group_4\target\liberty\wlp\usr\servers\defaultServer\logs\state\plugin-cfg.xml.
+[11/11/26, 5:14:43:368 WIB] 00000256 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://desktop-chf21k1:9080/
+[11/11/26, 5:14:43:369 WIB] 00000256 com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [jakartaee-hello-world] [/] [Faces Servlet]: Destroy successful.
+[11/11/26, 5:14:43:412 WIB] 00000256 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: The application jakartaee-hello-world has stopped successfully.
+[11/11/26, 5:14:43:448 WIB] 00000256 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application jakartaee-hello-world.
+[11/11/26, 5:14:43:449 WIB] 00000256 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: The jakartaee-hello-world application is using the loose application definition at the C:\PemrogramanWeb\UAS_PBO\project_jakarta_faces_group_4\target\liberty\wlp\usr\servers\defaultServer\apps\jakartaee-hello-world.war.xml location.
+[11/11/26, 5:14:43:800 WIB] 00000256 org.jboss.weld.Event                                         I WELD-000411: Observer method [BackedAnnotatedMethod] org.apache.myfaces.config.annotation.CdiAnnotationProviderExtension.processAnnotatedType(@Observes ProcessAnnotatedType<T>) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.
+[11/11/26, 5:14:44:096 WIB] 00000256 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: jakartaee-hello-world.
+[11/11/26, 5:14:44:096 WIB] 00000256 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module jakartaee-hello-world has been bound to default_host.
+[11/11/26, 5:14:44:097 WIB] 00000256 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://desktop-chf21k1:9080/
+[11/11/26, 5:14:44:097 WIB] 000001cb com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/
+[11/11/26, 5:14:44:098 WIB] 000001cb com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[11/11/26, 5:14:44:137 WIB] 000001cb org.apache.myfaces.webapp.MyFacesContainerInitializer        I Using io.openliberty.faces40.internal.ee.WASMyFacesContainerInitializer
+[11/11/26, 5:14:44:163 WIB] 000001cb org.apache.myfaces.config.DefaultFacesConfigurationProvider  I Found jakarta.faces.application.ApplicationFactory factory implementation: io.openliberty.faces40.internal.config.WASApplicationFactoryImpl
+[11/11/26, 5:14:44:252 WIB] 000001cb org.apache.myfaces.application.ApplicationImpl               I Couldn't discover the current project stage, using Production
+[11/11/26, 5:14:44:254 WIB] 000001cb org.apache.myfaces.view.facelets.ViewPoolProcessor           I org.apache.myfaces.CACHE_EL_EXPRESSIONS web config parameter is set to "noCache". To enable view pooling this param must be set to "alwaysRecompile". View Pooling disabled.
+[11/11/26, 5:14:44:254 WIB] 000001cb org.apache.myfaces.webapp.FacesInitializerImpl               I MyFaces Core has started, it took [113] ms.
+[11/11/26, 5:14:44:257 WIB] 000001cb com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: The application jakartaee-hello-world updated in 0.808 seconds.
+[11/11/26, 5:14:44:278 WIB] 000001cb com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [jakartaee-hello-world] [/] [Faces Servlet]: Initialization successful.
+[11/11/26, 5:14:44:432 WIB] 000001cd com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at C:\PemrogramanWeb\UAS_PBO\project_jakarta_faces_group_4\target\liberty\wlp\usr\servers\defaultServer\logs\state\plugin-cfg.xml.
+[11/11/26, 5:14:48:983 WIB] 0000022f com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at C:\PemrogramanWeb\UAS_PBO\project_jakarta_faces_group_4\target\liberty\wlp\usr\servers\defaultServer\logs\state\plugin-cfg.xml.
+[11/11/26, 5:15:17:305 WIB] 00000158 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://desktop-chf21k1:9080/
+[11/11/26, 5:15:17:305 WIB] 00000158 com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [jakartaee-hello-world] [/] [Faces Servlet]: Destroy successful.
+[11/11/26, 5:15:17:313 WIB] 00000158 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: The application jakartaee-hello-world has stopped successfully.
+[11/11/26, 5:15:17:320 WIB] 00000158 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application jakartaee-hello-world.
+[11/11/26, 5:15:17:320 WIB] 00000158 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: The jakartaee-hello-world application is using the loose application definition at the C:\PemrogramanWeb\UAS_PBO\project_jakarta_faces_group_4\target\liberty\wlp\usr\servers\defaultServer\apps\jakartaee-hello-world.war.xml location.
+[11/11/26, 5:15:17:397 WIB] 00000158 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: jakartaee-hello-world.
+[11/11/26, 5:15:17:397 WIB] 00000158 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module jakartaee-hello-world has been bound to default_host.
+[11/11/26, 5:15:17:397 WIB] 00000158 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://desktop-chf21k1:9080/
+[11/11/26, 5:15:17:404 WIB] 00000199 com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/
+[11/11/26, 5:15:17:405 WIB] 00000199 com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[11/11/26, 5:15:17:422 WIB] 00000199 org.apache.myfaces.webapp.MyFacesContainerInitializer        I Using io.openliberty.faces40.internal.ee.WASMyFacesContainerInitializer
+[11/11/26, 5:15:17:440 WIB] 00000199 org.apache.myfaces.config.DefaultFacesConfigurationProvider  I Found jakarta.faces.application.ApplicationFactory factory implementation: io.openliberty.faces40.internal.config.WASApplicationFactoryImpl
+[11/11/26, 5:15:17:524 WIB] 00000199 org.apache.myfaces.application.ApplicationImpl               I Couldn't discover the current project stage, using Production
+[11/11/26, 5:15:17:526 WIB] 00000199 org.apache.myfaces.view.facelets.ViewPoolProcessor           I org.apache.myfaces.CACHE_EL_EXPRESSIONS web config parameter is set to "noCache". To enable view pooling this param must be set to "alwaysRecompile". View Pooling disabled.
+[11/11/26, 5:15:17:526 WIB] 00000199 org.apache.myfaces.webapp.FacesInitializerImpl               I MyFaces Core has started, it took [102] ms.
+[11/11/26, 5:15:17:528 WIB] 00000199 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: The application jakartaee-hello-world updated in 0.207 seconds.
+[11/11/26, 5:15:17:544 WIB] 00000199 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [jakartaee-hello-world] [/] [Faces Servlet]: Initialization successful.
+[11/11/26, 5:15:21:865 WIB] 00000225 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at C:\PemrogramanWeb\UAS_PBO\project_jakarta_faces_group_4\target\liberty\wlp\usr\servers\defaultServer\logs\state\plugin-cfg.xml.
+[11/11/26, 5:15:26:427 WIB] 0000026e com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at C:\PemrogramanWeb\UAS_PBO\project_jakarta_faces_group_4\target\liberty\wlp\usr\servers\defaultServer\logs\state\plugin-cfg.xml.
+[11/11/26, 5:15:27:955 WIB] 0000026e com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://desktop-chf21k1:9080/
+[11/11/26, 5:15:27:955 WIB] 0000026e com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [jakartaee-hello-world] [/] [Faces Servlet]: Destroy successful.
+[11/11/26, 5:15:27:964 WIB] 0000026e com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: The application jakartaee-hello-world has stopped successfully.
+[11/11/26, 5:15:27:985 WIB] 0000026e com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application jakartaee-hello-world.
+[11/11/26, 5:15:27:986 WIB] 0000026e bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: The jakartaee-hello-world application is using the loose application definition at the C:\PemrogramanWeb\UAS_PBO\project_jakarta_faces_group_4\target\liberty\wlp\usr\servers\defaultServer\apps\jakartaee-hello-world.war.xml location.
+[11/11/26, 5:15:28:154 WIB] 0000026e com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: jakartaee-hello-world.
+[11/11/26, 5:15:28:155 WIB] 0000026e com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module jakartaee-hello-world has been bound to default_host.
+[11/11/26, 5:15:28:155 WIB] 0000026e com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://desktop-chf21k1:9080/
+[11/11/26, 5:15:28:172 WIB] 0000020c com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/
+[11/11/26, 5:15:28:173 WIB] 0000020c com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[11/11/26, 5:15:28:239 WIB] 0000020c org.apache.myfaces.webapp.MyFacesContainerInitializer        I Using io.openliberty.faces40.internal.ee.WASMyFacesContainerInitializer
+[11/11/26, 5:15:28:279 WIB] 0000020c org.apache.myfaces.config.DefaultFacesConfigurationProvider  I Found jakarta.faces.application.ApplicationFactory factory implementation: io.openliberty.faces40.internal.config.WASApplicationFactoryImpl
+[11/11/26, 5:15:28:422 WIB] 0000020c org.apache.myfaces.application.ApplicationImpl               I Couldn't discover the current project stage, using Production
+[11/11/26, 5:15:28:423 WIB] 0000020c org.apache.myfaces.view.facelets.ViewPoolProcessor           I org.apache.myfaces.CACHE_EL_EXPRESSIONS web config parameter is set to "noCache". To enable view pooling this param must be set to "alwaysRecompile". View Pooling disabled.
+[11/11/26, 5:15:28:424 WIB] 0000020c org.apache.myfaces.webapp.FacesInitializerImpl               I MyFaces Core has started, it took [181] ms.
+[11/11/26, 5:15:28:425 WIB] 0000020c com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: The application jakartaee-hello-world updated in 0.440 seconds.
+[11/11/26, 5:15:28:502 WIB] 0000020c com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [jakartaee-hello-world] [/] [Faces Servlet]: Initialization successful.
+[11/11/26, 5:15:29:056 WIB] 00000289 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://desktop-chf21k1:9080/
+[11/11/26, 5:15:29:057 WIB] 00000289 com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [jakartaee-hello-world] [/] [Faces Servlet]: Destroy successful.
+[11/11/26, 5:15:29:130 WIB] 00000289 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: The application jakartaee-hello-world has stopped successfully.
+[11/11/26, 5:15:29:172 WIB] 00000289 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application jakartaee-hello-world.
+[11/11/26, 5:15:29:173 WIB] 00000289 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: The jakartaee-hello-world application is using the loose application definition at the C:\PemrogramanWeb\UAS_PBO\project_jakarta_faces_group_4\target\liberty\wlp\usr\servers\defaultServer\apps\jakartaee-hello-world.war.xml location.
+[11/11/26, 5:15:29:642 WIB] 00000289 org.jboss.weld.Event                                         I WELD-000411: Observer method [BackedAnnotatedMethod] org.apache.myfaces.config.annotation.CdiAnnotationProviderExtension.processAnnotatedType(@Observes ProcessAnnotatedType<T>) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.
+[11/11/26, 5:15:30:064 WIB] 00000289 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: jakartaee-hello-world.
+[11/11/26, 5:15:30:069 WIB] 00000289 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module jakartaee-hello-world has been bound to default_host.
+[11/11/26, 5:15:30:069 WIB] 00000289 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://desktop-chf21k1:9080/
+[11/11/26, 5:15:30:070 WIB] 00000225 com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/
+[11/11/26, 5:15:30:070 WIB] 00000225 com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[11/11/26, 5:15:30:129 WIB] 00000225 org.apache.myfaces.webapp.MyFacesContainerInitializer        I Using io.openliberty.faces40.internal.ee.WASMyFacesContainerInitializer
+[11/11/26, 5:15:30:172 WIB] 00000225 org.apache.myfaces.config.DefaultFacesConfigurationProvider  I Found jakarta.faces.application.ApplicationFactory factory implementation: io.openliberty.faces40.internal.config.WASApplicationFactoryImpl
+[11/11/26, 5:15:30:308 WIB] 00000225 org.apache.myfaces.application.ApplicationImpl               I Couldn't discover the current project stage, using Production
+[11/11/26, 5:15:30:309 WIB] 00000225 org.apache.myfaces.view.facelets.ViewPoolProcessor           I org.apache.myfaces.CACHE_EL_EXPRESSIONS web config parameter is set to "noCache". To enable view pooling this param must be set to "alwaysRecompile". View Pooling disabled.
+[11/11/26, 5:15:30:310 WIB] 00000225 org.apache.myfaces.webapp.FacesInitializerImpl               I MyFaces Core has started, it took [175] ms.
+[11/11/26, 5:15:30:313 WIB] 00000225 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: The application jakartaee-hello-world updated in 1.141 seconds.
+[11/11/26, 5:15:30:340 WIB] 00000225 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [jakartaee-hello-world] [/] [Faces Servlet]: Initialization successful.
+[11/11/26, 5:15:32:519 WIB] 0000028a com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at C:\PemrogramanWeb\UAS_PBO\project_jakarta_faces_group_4\target\liberty\wlp\usr\servers\defaultServer\logs\state\plugin-cfg.xml.
+[11/11/26, 5:15:37:089 WIB] 00000289 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at C:\PemrogramanWeb\UAS_PBO\project_jakarta_faces_group_4\target\liberty\wlp\usr\servers\defaultServer\logs\state\plugin-cfg.xml.
+[11/11/26, 5:17:58:711 WIB] 00000108 org.apache.myfaces.el.ELResolverBuilder                      I Chain of EL resolvers: [org.apache.myfaces.el.resolver.implicitobject.ImplicitObjectResolver@6b4b473f, org.jboss.weld.module.web.el.WeldELResolver@5f192ae3, org.apache.myfaces.el.resolver.CompositeComponentELResolver@70429fc4, org.apache.myfaces.el.resolver.FlashELResolver@6a502eec, org.apache.myfaces.el.resolver.ResourceResolver@5b93ee26, jakarta.el.ResourceBundleELResolver@4d4b8985, org.apache.myfaces.el.resolver.ResourceBundleResolver@29938357, org.apache.myfaces.el.resolver.ImportConstantsELResolver@425fefc7, org.apache.el.stream.StreamELResolverImpl@6f9cb74, jakarta.el.StaticFieldELResolver@17ef7d8f, jakarta.el.MapELResolver@22d3dd1e, jakarta.el.ListELResolver@1fcf2f54, jakarta.el.ArrayELResolver@5725e5b2, jakarta.el.OptionalELResolver@3bcae9dc, jakarta.el.RecordELResolver@74de896, jakarta.el.BeanELResolver@619ed2a4]
+[11/11/26, 5:17:58:715 WIB] 00000108 com.ibm.ws.webcontainer.webapp                               I SRVE0292I: Servlet Message - [jakartaee-hello-world]:.No state saving method defined, assuming default server state saving
